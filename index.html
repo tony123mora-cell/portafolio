@@ -1,11 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Anthony Porras</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                Anthony
+            </div>
+
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECCIÓN HERO -->
+        <section id="inicio" class="hero">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <img src="img/perfil.jpg" alt="Fotografía de Anthony Porras" class="foto-perfil">
+
+                    <p class="saludo">
+                        Bienvenido a mi portafolio
+                    </p>
+
+                    <h1>
+                        Hola, soy Anthony Porras
+                    </h1>
+
+                    <h2>
+                        Profesor de informática y desarrollador de software
+                    </h2>
+
+                    <p class="descripcion-hero">
+                        Desarrollo soluciones web y aplicaciones utilizando
+                        diferentes tecnologías orientadas a resolver
+                        necesidades reales.
+                    </p>
+
+                    <div>
+                       <button type="button" onclick="VerProyecto"></button>
+                        <a href="#contacto" class="btn btn-secundario">
+                            Contactarme
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOBRE MÍ -->
+        <section id="sobre-mi" class="section">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Sobre mí</h2>
+                <p class="subtitulo-seccion">Conoce un poco más sobre mi trayectoria, pasión por la tecnología y habilidades principales.</p>
+
+                <div class="sobre-mi-container">
+                    <!-- Texto principal sobre mí -->
+                    <div class="sobre-mi-texto">
+                        <h3>Pasión por la tecnología y la enseñanza</h3>
+                        <p>
+                            Soy desarrollador de software y educador apasionado por crear aplicaciones funcionales, intuitivas y eficientes. Mi enfoque abarca desde el diseño web responsive hasta el desarrollo de arquitectura lógica en el backend.
+                        </p>
+                        <p>
+                            Además, me motiva compartir conocimientos y guiar a nuevas generaciones en el campo de la informática, combinando la práctica constante con metodologías de enseñanza modernas.
+                        </p>
+
+                        <!-- Subsección de Habilidades -->
+                        <div class="habilidades-container">
+                            <h3>Habilidades Técnicas</h3>
+                            <div class="habilidades">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>Git & GitHub</span>
+                                <span>SQL</span>
+                                <span>UI/UX Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cuadro con Datos Personales -->
+                    <div class="datos-personales">
+                        <div class="dato">
+                            <strong>Nombre Completo:</strong>
+                            <span>Anthony Porras</span>
+                        </div>
+                        <div class="dato">
+                            <strong>Profesión:</strong>
+                            <span>Profesor de Informática & Desarrollador</span>
+                        </div>
+                        <div class="dato">
+                            <strong>Ubicación:</strong>
+                            <span>San José, Costa Rica</span>
+                        </div>
+                        <div class="dato">
+                            <strong>Correo Electrónico:</strong>
+                            <span>contacto@anthonyporras.com</span>
+                        </div>
+                        <div class="dato">
+                            <strong>Disponibilidad:</strong>
+                            <span>Disponible para proyectos y tutorías</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p><span id="anio"></span> Anthony Porras. Todos los derechos reservados.</p>
+        </div>
+    </footer>
     
+    <script src="js/script.js"></script>
 </body>
+
 </html>
